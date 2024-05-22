@@ -1,0 +1,542 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;800;900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Fenix&display=swap);*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+.father{
+    font-family: 'Montserrat', sans-serif;
+}
+
+:root{
+    --sariq: #E0B973;
+    --qora: #14274A;
+}
+
+
+/* home */
+
+.home{
+    padding-right: 0;
+    background: url(../img/ciudad-maderas-MXbM1NrRqtI-unsplash\ 1.png) no-repeat center;
+    background-size: cover;
+}
+.navbar{
+    display: flex;
+    padding: 0 90px;
+    flex-direction: column; 
+    color: white;
+    background: rgba(0, 0, 0, 0.2);
+    padding-right: 130px;
+    margin-bottom: 200px;
+}
+.navbar .top{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar .pages{
+    width: 45%;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+    font-weight: 500;
+}
+.home .pages a:first-child{
+    font-weight: 700;
+}
+.navbar .pages a{
+    text-decoration: none;
+    color: white;
+}
+.introduction{
+    color: white;
+    margin: 200px 30px;
+    font-weight: 400;
+}
+.introduction h1, h3{
+    font-family: 'Fenix', serif; 
+    font-weight: 400;
+    color: var(--sariq);
+}
+.introduction h2{
+    font-size: 50px;
+    font-weight: 400;
+}
+.introduction h1{
+    font-size: 154px;
+    letter-spacing: 7%;
+}
+.introduction h3{
+    font-size: 60px;
+    letter-spacing: 30px;
+    margin-bottom: 20px;
+}
+.introduction p{
+    width: 39%;
+    font-size: 25px;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+.home .bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 30px;
+
+}
+.home .bottom button{
+    width: 23%;
+    cursor: pointer;
+    padding: 20px;
+    margin: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--qora);
+    gap: 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 25px;
+    font-weight: 700;
+    color: var(--sariq);
+}
+
+
+/* section */
+
+.section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 180px;
+    
+}
+.section .top h3{
+    font-size: 36px;
+    font-weight: 500;
+    color: var(--qora);
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 90px;
+}
+.luxury .box{
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 70px;
+}
+.luxury .left-box{
+    width: 43%;
+    color: var(--qora);
+    font-weight: 400;
+    padding: 161px 0;
+}
+.luxury h2{
+    font-size: 60px;
+    font-family: 'Fenix', serif;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.luxury p{
+    width: 85%;
+    font-size: 25px;
+    font-weight: 500;
+}
+.luxury .right-box{
+    width: 57%; 
+    border-radius: 20px;
+}
+.luxury .l2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+    padding-right: 50px;
+}
+.section .bottom button{
+    background-color: var(--sariq);
+    color: var(--qora);
+    padding: 20px 70px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 5%;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+/* footer */
+
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 67px 180px;
+    background-color: var(--qora);
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+.footer .stake:first-child a{
+    font-size: 14px;
+}
+.footer img{
+    width: 100%;
+}
+.footer .stake{
+    width: 13%;
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+}
+.footer p i{
+    color: white;
+}
+.footer p{
+    display: flex;
+    gap: 20px;
+}
+.footer a{
+    margin-bottom: 20px;
+    color: white;
+}
+.footer .stake:not(:first-child, :last-child) p{
+    margin-bottom: 20px;
+}
+.footer label{
+    display: flex;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    border: 2px solid var(--sariq);
+    color: var(--qora);
+    border-radius: 5px;
+}
+.footer input{
+    width: 90%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    padding: 10px 30px;
+    font-size: 20px;
+    color: white;
+}
+::placeholder{
+    color: white;
+}
+.footer .stake:last-child{
+    width: 26%;
+}
+.footer .stake:last-child p:first-child{
+    margin-bottom: 30px;
+}
+.footer label p{
+    width: 20%;
+    background-color: var(--sariq);
+    padding: 20px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+/* facilities */
+
+.facilities{
+    background: url(../img/Mask\ Group.png) no-repeat center;
+    background-size: cover;
+}
+.facilities .bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 30px;
+
+}
+.facilities .bottom button{
+    width: 23%;
+    cursor: pointer;
+    padding: 20px;
+    margin: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--qora);
+    gap: 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 25px;
+    font-weight: 700;
+    color: var(--sariq);
+}
+.facilities .navbar a:first-child + a{
+    font-weight: 700;
+}
+
+
+/* section-ficilities */
+
+
+.section-facilities{
+    padding: 50px 180px;
+}
+.section-facilities .title{
+    text-align: center;
+    color: var(--qora);
+    margin-bottom: 100px;
+}
+.section-facilities .title p:first-child{
+    font-size: 60px;
+    font-family: 'Fenix', serif;
+    letter-spacing: 5px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+.section-facilities .title p:last-child{
+    font-size: 25px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 40.48px;
+}
+
+
+/* rooms */
+
+
+
+.rooms .box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+    border-radius: 10px;
+}
+.rooms img{
+    width: 100%;
+}
+.rooms button{
+    border: none;
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--sariq);
+    padding: 10px 200px;
+    transform: translateY(-75px);
+    background-color: white;
+}
+.rooms .box:last-child{
+    margin-bottom: 0;
+}
+
+
+/* lux-rooms */
+
+
+.lux-rooms{
+    background: url(../img/Mask\ Group\ \(1\).png) no-repeat center;
+    background-size: cover;
+}
+.lux-rooms .bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 30px;
+}
+.lux-rooms .navbar{
+    background: rgba(0, 0, 0, 0.3);
+}
+.lux-rooms .bottom button{
+    width: 23%;
+    cursor: pointer;
+    padding: 20px;
+    margin: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--qora);
+    gap: 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 25px;
+    font-weight: 700;
+    color: var(--sariq);
+}
+.navbar .room{
+    font-weight: 700;
+}
+.navbar a:first-child{
+    font-weight: 500;
+}
+
+/* polulux-rooms */
+
+
+
+.polulux-rooms .room{
+    position: relative;
+    border: 2px solid;
+    border-radius: 0px 0 20px 20px;
+    margin-bottom: 100px;
+    border-top: none;
+}
+.room .span{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    position: absolute;
+    left: 47%;
+    bottom: 500px;
+}
+.polulux-rooms .span span{
+    width: 20px;
+    height: 20px;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+.room .span span:first-child{
+    background-color: white;
+}
+.room .number-rooms{
+    width: 100%;
+    text-align: center;
+    font-size: 60px;
+    line-height: 73px;
+    font-weight: 700;
+    padding: 42px 0;
+    background-color: var(--qora);
+    color: white;
+    transform: translateY(-4px);
+}
+.room .number-rooms:not(:first-child , :last-child){
+    transform: translateY(-44px);
+}
+.room img{
+    width: 100%;
+}
+.room .bottom{
+    display: flex;
+    justify-content: space-between;
+    padding: 90px 150px;
+    border-top: none;
+    font-size: 25px;
+    font-weight: 700;
+    color: var(--qora);
+}
+.room .button{
+    padding: 20px 40px;
+    border: none;
+    border-radius: 10px;
+    font-size: 25px;
+    font-weight: 700;
+    background-color: var(--sariq);
+    color: white;
+}
+.room .bottom .left{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.room .left span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    font-size: 40px;
+    border-radius: 50%;
+    background-color: var(--sariq);
+    color: white;
+}
+
+
+/* contact-us */
+
+
+.contact-us a:last-child{
+    font-weight: 700;
+}
+.contact-us .room{
+    font-weight: 400;
+}
+.contact-us .navbar{
+    background-color: #B7904B;
+}
+.contact-us h1{
+    margin-top: 120px;
+    margin-bottom: 90px;
+    text-align: center;
+    font-size: 80px;
+}
+
+/* contact */
+
+
+.contact .title{
+    text-align: start;
+    margin-bottom: 200px;
+}
+.contact .title p:first-child{
+    margin-bottom: 10px;
+}
+.parent-box{
+    display: flex;
+    justify-content: space-between;
+    color: var(--qora);
+    margin-bottom: 400px;
+}
+.parent-box .box-left{
+    width: 40%;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 49px;
+}
+.parent-box .box-left .p{
+    margin: 50px 0;
+    font-weight: 700;
+}
+.parent-box .box-right{
+    width: 40%;
+    font-family: Arial;
+    font-size: 25px;
+    font-weight: 600;
+}
+.parent-box label p{
+    text-align: start;
+    margin-bottom: 10px;
+}
+.parent-box input{
+    width: 100%;
+    padding: 25px;
+    border-radius: 10px;
+    border: 2px solid #14274A80;
+    outline: none;
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+.parent-box textarea{
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 352px;
+    max-height: 353px;
+    outline: none;
+    padding: 30px;
+    font-size: 25px;
+    border: 2px solid #14274A80;
+    margin-bottom: 50px;
+}
+.parent-box .box-right button{
+    width: 145px;
+    font-size: 25px;
+    font-weight: 700;
+    color: white;
+    border: none;
+    padding: 20px 30px;
+    border-radius: 10px;
+    background-color: var(--sariq);
+}
+.parent-box .button{
+    display: flex; 
+    justify-content: end;
+}
